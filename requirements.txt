@@ -1,0 +1,22 @@
+# TESS Exoplanet Discovery Pipeline - Python Dependencies
+
+# Core astronomical libraries
+lightkurve>=2.4.0
+astropy>=5.3
+astroquery>=0.4.6
+
+# Data analysis
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Transit search
+astropy>=5.3  # BLS is in astropy.timeseries
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional but recommended
+tqdm>=4.65.0  # Progress bars
+uncertainties>=3.1.7  # Error propagation
